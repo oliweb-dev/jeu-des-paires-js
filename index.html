@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Jeu des paires</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Jeu des paires</h1>
+            <p>Le jeu des paires consiste à essayer de trouver des paires de cartes avec une même image. Le but est de trouver toutes les paires de cartes pour gagner la partie.</p>
+            <div id="level">
+                <button type="button" class="btn btn-outline-primary" id="level1">6 cartes</button>
+                <button type="button" class="btn btn-primary" id="level2">12 cartes</button>
+                <button type="button" class="btn btn-primary" id="level3">18 cartes</button>
+                <button type="button" class="btn btn-primary" id="level4">24 cartes</button>
+            </div>
+            <div id="displaywin">
+                <p id="info"></p>
+                <p id="score"></p>
+            </div>
+            <div id="display">
+                <button type="button" class="btn btn-success" id="btnStart">Commencer</button>
+            </div>
+            <div id="game"></div>
+        </div>
+        
+        <footer>Olivier Barbiaux - <a href="https://github.com/oliweb-dev/jeu-des-paires-js" class="link-underline-primary" target="_blank">GitHub</a> - <a href="https://www.linkedin.com/in/olivier-barbiaux-web-developer-dotnet-asp-javascript-angular-react/" class="link-underline-primary" target="_blank">LinkedIn</a></footer>
+        <script src="script.js"></script>
+    </body>
+</html>

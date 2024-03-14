@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-size: 100%;
+}
+
+h1 {
+   text-align: center;
+   font-family: "Kalam", cursive;
+}
+
+p {
+   text-align: center;
+   font-family: "Kalam", cursive;
+   font-size: 1rem;
+}
+
+#level {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+#level button {
+   margin: 0 1rem;
+   font-family: "Kalam", cursive;
+   font-size: 1rem;
+}
+
+#display {
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+   max-width: 75rem; /* 1200 */
+   margin: 1.5625rem auto; /* 15 */
+}
+
+#game {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 68.75rem; /* 1100 */
+   margin: 2.1875rem auto;
+}
+
+#game div {
+   width: 9.375rem; /* 150 */
+   height: 9.375rem;
+   margin: 0.5rem;
+   text-align: center;
+   font-size: 3rem;
+   line-height: 9.375rem;
+   cursor: pointer;
+   border-radius: 0.375rem; /* 6 */
+}
+
+.cardBack {
+   background-image: url("images/card_back.jpg");
+   background-size: cover;
+}
+
+.cardGreen {
+   background-image: url("images/card_green.jpg");
+   background-size: cover;
+}
+
+.cardRed {
+   background-image: url("images/card_red.jpg");
+   background-size: cover;
+}
+
+#btnStart {
+   font-family: "Kalam", cursive;
+   font-size: 1.5rem;
+}
+
+#btn:hover {
+   background-color: #1e439c;
+}
+
+#displaywin {
+   height: 5rem;
+}
+
+#info {
+   font-size: 2rem;
+   margin-bottom: 0;
+}
+
+footer {
+   text-align: center;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+}
